@@ -1,0 +1,10 @@
+version: '3'
+services:
+  guni:
+    build: .
+    # image: fweidemann14/xiar-wsgi:latest
+    ports:
+      - "5001:5001"
+    volumes:
+      - .:/app
+    command: python webapp/webserviceguni.py

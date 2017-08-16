@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block body %}
+  <h3>Create a new game</h3>
+  {% from "includes/_formhelpers.html" import render_field %}
+  <form method="POST" action="">
+    <div class="form-group">
+      {{render_field(form.width, class = "form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.height, class = "form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.win_length, class = "form-control")}}
+    </div>
+    <div class="form-group">
+      {{render_field(form.starting_player, class = "form-control")}}
+    </div>
+    <p><input type="submit" class="btn btn-primary" value="Submit"></p>
+  </form>
+{% endblock %}

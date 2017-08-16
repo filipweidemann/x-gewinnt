@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--column-count), 10em);
+  grid-auto-rows: 10em;
+  grid-gap: 0.5em;
+}
+
+.grid__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}

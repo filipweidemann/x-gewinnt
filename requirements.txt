@@ -1,0 +1,6 @@
+pytest
+pytest-cov
+flask
+wtforms
+gevent
+gunicorn

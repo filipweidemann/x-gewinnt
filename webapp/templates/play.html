@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+{% block body %}
+<style>
+    :root {
+        --column-count: {{ width }};
+    }
+</style>
+<div class = "grid">
+  <!-- <div style="display: table-cell; vertical-align: top;"> -->
+
+    {% for i in range(0, width) %}
+        <div class="grid__item">
+          <a href="/drop/{{i}}">
+            <button type="button" class="btn btn-primary" onclick="">Drop({{i + 1}})</button>
+          </a>
+         </div>
+    {% endfor %}
+
+    {% for element in game_state %}
+
+        {% for item in element %}
+            <div class = "grid__item">
+                {{ item }}
+            </div>
+        {% endfor %}
+
+    {% endfor %}
+  </div>
+<!-- </div> -->
+{% endblock %}
