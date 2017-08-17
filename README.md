@@ -9,8 +9,8 @@ Description
 This repository contains a full and final implementation of the popular game `connect four` with a slight modification:
 you may change the `four`!
 
-Installation
-------------
+Pre-Fun-Installations
+---------------------
 **IMPORTANT**:
 
 __If you're not sure what you have installed on your system, you should do a `pip install requirements.txt` BEFORE doing any of the steps below! This will install all neccessary modules.__
@@ -19,7 +19,11 @@ __If you're not sure what you have installed on your system, you should do a `pi
 
 If you just got curious and want to learn more about this, head over to the official [virtualenv documentation](https://virtualenv.pypa.io/en/stable/ "venv documentation") to get started.
 
+Getting Started
+---------------
+
 There are serveral ways of starting this app.
+
 `The simplest one` is rather boring. You'll just play the game in your `bash`.
 That's it. No shiny interface. And you'll have to use your keyboard, obviously.
 However, if that's the desired option, just `cd` into your cloned directory and type `python game/maintty.py`.
@@ -31,3 +35,8 @@ Now navigate to your browser of choice (please no IE..) and type `localhost:5001
 The last option is using Docker. You may use `docker-build -t your-image-name` inside the cloned repository to build a Docker image, or you can run `docker-compose up` to let it start up all by itself.
 
 If you want to edit the source code, you may use the `webapp/webservice.py` as your primary development server. 
+
+License
+-------
+GNU General Public License v3.0
+Read more in the LICENSE.txt
