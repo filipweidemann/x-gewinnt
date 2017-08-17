@@ -39,4 +39,5 @@ If you want to edit the source code, you may use the `webapp/webservice.py` as y
 License
 -------
 GNU General Public License v3.0
+
 Read more in the LICENSE.txt
