@@ -13,9 +13,9 @@ Installation
 ------------
 **IMPORTANT**:
 
-__If you're not sure what you have installed on your system, you should do a `pip install requirements.txt` BEFORE doing any of the steps below! This will install all neccessary modules.__
+__If you're not sure what you have installed on your system, you should do a `pip install requirements.txt` BEFORE doing any of the steps below! This will install all neccessary modules.
 
-_Also, I strongly recommend the use of `virtualenv`, specifically `virtualenvwrapper`. This will isolate the project path and allows you to install all dependencies in a virtual environment. After you're done you may delete your `venv` and your system is in the same state as before.
+*Also, I strongly recommend the use of `virtualenv`, specifically `virtualenvwrapper`. This will isolate the project path and allows you to install all dependencies in a virtual environment. After you're done you may delete your `venv` and your system is in the same state as before.*
 
 If you just got curious and want to learn more about this, head over to the official [virtualenv documentation](https://virtualenv.pypa.io/en/stable/ "venv documentation") to get started.
 
