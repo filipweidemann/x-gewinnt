@@ -1,4 +1,5 @@
 x-gewinnt / connect-x
+![Travis CI Build Info](https://travis-ci.org/fweidemann14/x-gewinnt.svg?branch=master)
 =====================
 
 Description
