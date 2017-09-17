@@ -8,6 +8,7 @@ install:
 # command to run tests
 script:
   - coverage run game/test_game.py
+  - coverage run webapp/test_webapp.py
 
 after_success:
   - codecov
