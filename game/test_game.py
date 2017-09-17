@@ -1,4 +1,4 @@
-import game.game as game
+import game as game
 import pytest
 import sys
 
