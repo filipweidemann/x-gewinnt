@@ -1,5 +1,6 @@
 x-gewinnt / connect-x
 [![Build Status](https://travis-ci.org/fweidemann14/x-gewinnt.svg?branch=master)](https://travis-ci.org/fweidemann14/x-gewinnt)
+[![codebeat badge](https://codebeat.co/badges/f7ef0129-b360-4eab-ad26-d761beb97dfc)](https://codebeat.co/projects/github-com-fweidemann14-x-gewinnt-master)
 [![codecov](https://codecov.io/gh/fweidemann14/x-gewinnt/branch/master/graph/badge.svg)](https://codecov.io/gh/fweidemann14/x-gewinnt)
 =====================
 
